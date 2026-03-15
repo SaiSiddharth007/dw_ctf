@@ -95,7 +95,18 @@ export default function Home() {
                 />
               ))}
             </div>
-          </div>
+          </div> 
+         
+          <div className="mt-8 flex justify-center">
+  <a
+    href="https://ctftime.org/event/3185"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="px-8 py-3 bg-accent text-accent-foreground font-bold rounded-lg border-2 border-accent hover:bg-accent/90 hover:shadow-lg hover:shadow-accent/50 transition-all duration-300 font-mono flex items-center gap-2"
+  >
+    <span>→ View CTF Event Profile</span>
+  </a>
+</div>
 
           {/* Footer Info */}
           <div className="mt-20 pt-12 border-t border-accent/20 text-center">
